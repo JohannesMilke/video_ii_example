@@ -1,0 +1,38 @@
+name: video_ii_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # play videos
+  video_player: ^1.0.1
+
+  # pick video from file system
+  file_picker: ^2.1.6
+
+  # prevent screen from sleeping
+  wakelock: ^0.2.1+1
+
+  # switch orientation
+  auto_orientation: 1.0.1
+
+  # listen to orientation
+  native_device_orientation: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/video.mp4
